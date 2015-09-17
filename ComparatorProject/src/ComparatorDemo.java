@@ -30,6 +30,11 @@ class NameCcomparator implements Comparator {
 
 }
 
+/**
+ * Age Comparator
+ * @author RUDRAANSH
+ *
+ */
 class AgeComparator implements Comparator {
 	public int compare(Object o1, Object o2) {
 		Student s1 = (Student) o1;
@@ -43,6 +48,11 @@ class AgeComparator implements Comparator {
 	}
 }
 
+/**
+ * Roll Number Comparator
+ * @author RUDRAANSH
+ *
+ */
 class RollNumComparator implements Comparator {
 	public int compare(Object o1, Object o2) {
 		Student s1 = (Student) o1;
